@@ -1,0 +1,161 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ATTINY85-20SUR
+#/242258/1189163/2.50/8/4/Integrated Circuit
+DEF ATTINY85-20SUR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "ATTINY85-20SUR" 850 200 50 H V L CNN
+F2 "SOIC127P798X216-8N" 850 100 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-2586-AVR-8-bit-Microcontroller-ATtiny25-ATtiny45-ATtiny85_Datasheet.pdf" 850 0 50 H I L CNN
+F4 "MICROCHIP - ATTINY85-20SUR - MCU, 8BIT, AVR, 20MHZ, SOIJ-8" 850 -100 50 H I L CNN "Description"
+F5 "2.16" 850 -200 50 H I L CNN "Height"
+F6 "556-ATTINY85-20SUR" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY85-20SUR?qs=6Dg1WZIWLC6UmR7J9f97hw%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "ATTINY85-20SUR" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X PB5 1 0 0 200 R 50 50 0 0 P
+X PB3 2 0 -100 200 R 50 50 0 0 P
+X PB4 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X VCC 8 1000 0 200 L 50 50 0 0 P
+X PB2 7 1000 -100 200 L 50 50 0 0 P
+X PB1 6 1000 -200 200 L 50 50 0 0 P
+X PB0 5 1000 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 10129383-908001ALF
+#/19647833/1189163/2.50/8/3/Connector
+DEF 10129383-908001ALF J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "10129383-908001ALF" 750 200 50 H V L CNN
+F2 "10129383908001ALF" 750 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10129383.pdf" 750 0 50 H I L CNN
+F4 "EconoStik, Board to Board connector, Unshrouded Vertical Header, Surface Mount, Double Row, 8 Positions, 2.54 mm (0.100in) Pitch." 750 -100 50 H I L CNN "Description"
+F5 "9.85" 750 -200 50 H I L CNN "Height"
+F6 "649-1012938390801ALF" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10129383-908001ALF?qs=0lQeLiL1qyZUTbnpRfOkZg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "10129383-908001ALF" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 0 0 200 R 50 50 0 0 P
+X A2 A2 0 -100 200 R 50 50 0 0 P
+X A3 A3 0 -200 200 R 50 50 0 0 P
+X A4 A4 0 -300 200 R 50 50 0 0 P
+X B1 B1 900 0 200 L 50 50 0 0 P
+X B2 B2 900 -100 200 L 50 50 0 0 P
+X B3 B3 900 -200 200 L 50 50 0 0 P
+X B4 B4 900 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 10129383-906002BLF
+#/18760951/1189163/2.50/6/2/Connector
+DEF 10129383-906002BLF J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "10129383-906002BLF" 750 200 50 H V L CNN
+F2 "10129383906002BLF" 750 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf" 750 0 50 H I L CNN
+F4 "EconoStik, Board to Board connector, Unshrouded Vertical Header, Surface Mount, Double Row, 6 Positions, 2.54 mm (0.100in) Pitch." 750 -100 50 H I L CNN "Description"
+F5 "12.09" 750 -200 50 H I L CNN "Height"
+F6 "" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol Communications Solutions" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "10129383-906002BLF" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X A1 A1 0 0 200 R 50 50 0 0 P
+X A2 A2 0 -100 200 R 50 50 0 0 P
+X A3 A3 0 -200 200 R 50 50 0 0 P
+X B1 B1 900 0 200 L 50 50 0 0 P
+X B2 B2 900 -100 200 L 50 50 0 0 P
+X B3 B3 900 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LTST-C230KSKT
+#/13422789/1189163/2.50/2/3/LED
+DEF LTST-C230KSKT LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "LTST-C230KSKT" 500 250 50 H V L BNN
+F2 "LEDC3216X120N" 500 150 50 H I L BNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KSKT.pdf" 500 50 50 H I L BNN
+F4 "Yellow 587nm LED Indication - Discrete 2V 1206 (3216 Metric)" 500 -50 50 H I L BNN "Description"
+F5 "1.2" 500 -150 50 H I L BNN "Height"
+F6 "859-LTST-C230KSKT" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C230KSKT?qs=VAsDcOInModG61IRQ3M7BA%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Lite-On" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "LTST-C230KSKT" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AA3528SECKT09
+#/2325448/1189163/2.50/2/4/LED
+DEF AA3528SECKT09 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "AA3528SECKT09" 500 250 50 H V L BNN
+F2 "AA3528SECKT09" 500 150 50 H I L BNN
+F3 "https://www.kingbrightusa.com/images/catalog/SPEC/AA3528SECKT09.pdf" 500 50 50 H I L BNN
+F4 "Standard LEDs - SMD 3.5x2.8mm ORANGE Z BEND" 500 -50 50 H I L BNN "Description"
+F5 "2.15" 500 -150 50 H I L BNN "Height"
+F6 "604-AA3528SECKT09" 500 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Kingbright/AA3528SECKT09?qs=PzGy0jfpSMsnOvrc03wD0w%3D%3D" 500 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Kingbright" 500 -450 50 H I L BNN "Manufacturer_Name"
+F9 "AA3528SECKT09" 500 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#End Library
